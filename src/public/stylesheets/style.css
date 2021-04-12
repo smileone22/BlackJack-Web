@@ -1,0 +1,131 @@
+body {
+    background-image: url("../img/main.jpg");
+    background-size: cover;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+h2 {
+    background-color: darkslategray;
+    border-radius: 15px;
+}
+form {
+    background-color:DarkSlateGrey;
+    border-radius: 15px;
+    color: linen;
+    padding: 15px;
+    position: fixed;
+    top: 40%;
+    left:10%
+}
+
+
+form label {
+    font-size: 2em;
+}
+
+form input {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    border-radius: 15px;
+    padding-left: 10px;
+    color: linen;
+    background-color: darkslategrey;
+}
+
+div {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: linen;
+    text-align: center;
+    margin : 30px;
+    border-radius: 15px;
+    display: block;
+
+}
+
+.outputBlock {
+    margin:0;
+    display: block;
+}
+
+.game button{
+    margin: 20px;
+    background-color: linen;
+    transition-duration: 0.4s;
+    border-radius: 12px;
+    border: 10px black;
+    width: 10%;
+    height: 40px;
+    font-size: 0.7em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.game button:hover {
+    background-color:  indianred;
+    color: white;
+  }
+
+#computerCards {
+    margin:0;
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+
+}
+#userCards {
+    margin:0;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+.card {
+    margin: 0.1cm;
+    color:black;
+    width: 3cm;
+    height: 4.5cm;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    background-color: #f1f1f1;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px; /* 5px rounded corners */
+}
+.red {
+    color: red;
+}
+.black {
+    color:black;
+}
+
+.labelTop{
+    background-color:  #f1f1f1;
+    margin-top:0.1cm;
+    margin-left:0.1cm;
+    margin-right:0.1cm;
+    margin-bottom: 2.7cm;
+    text-align: start;
+}
+.labelBottom{
+    background-color:  #f1f1f1;
+    margin:0;
+    text-align: end;
+    bottom: 10cm;
+}
+
+
+.finalResult {
+    margin-top: 15px;
+    background-color: Wheat;
+    font-size: 1.5em;
+    padding:10px;
+    color: darkslategrey;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 600px;
+    margin-left: 20%
+}
+
+.restartBtn {
+    position: absolute;
+    left: 8%;
+    bottom: 8%;
+    background-color: aqua;
+}
